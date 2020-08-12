@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    padding: 5px;
+}
+
+.header h1 {
+    margin: 10px;
+}
+.header span {
+    margin: 20px 5px;
+}

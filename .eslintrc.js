@@ -10,7 +10,9 @@ module.exports = {
     "plugin:react/recommended"
   ],
   "rules": {
-    "prettier/prettier": "error"
+    "prettier/prettier":  {
+      "endOfLine":"auto"
+    }
   },
   "parserOptions": {
     "ecmaVersion": 2018,

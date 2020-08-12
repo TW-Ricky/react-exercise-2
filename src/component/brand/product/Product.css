@@ -1,0 +1,20 @@
+.product {
+    margin: 10px 20px 10px 0px;
+
+}
+.product img {
+    margin: 10px 0px;
+    width: 180px;
+    height: 180px;
+}
+
+
+.product .price{
+    padding: 2px 0px;
+    margin-left: 0;
+    margin-right: auto;
+}
+.product .add{
+    margin-right: 0;
+    margin-left: auto;
+}
