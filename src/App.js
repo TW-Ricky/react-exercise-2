@@ -29,13 +29,12 @@ class App extends Component {
     );
   }
 
-  url = "http://localhost:3000";
+  url = "http://localhost:3000/products";
   async componentDidMount() {
     const response = await fetch(this.url);
-    console.log(response.json());
     const result = await response.json();
     this.setState({
-      products: result.products
+      products: result
     })
   }
 }
